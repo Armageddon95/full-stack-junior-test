@@ -22,13 +22,13 @@ session_start();
 				  
 				$count = mysqli_num_rows($result);
 
-				//	echo $got_passw;
+
 				
 				if($count == 1) {
 					
 					if (password_verify($_POST['password'], $got_passw)) {
 
-						// session_register("myusername");
+
 						$_SESSION['login_userID'] = $row['ID'];
 						 
 						header("location: welcome.php");
