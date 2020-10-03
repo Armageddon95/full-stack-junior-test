@@ -19,16 +19,6 @@ session_start();
 			$result = mysqli_query($conn, $sql);
 			$count = mysqli_num_rows($result);
 			
-			/*
-			echo $userID;
-			echo "<br>";
-			echo $list_left;
-			echo "<br>";
-			echo $list_right;
-			echo "<br>";
-			echo $count;
-			echo "<br>";
-			*/
 			
 			if($conn === false){
 				die("ERROR: Could not connect. " . mysqli_connect_error());
