@@ -32,7 +32,7 @@
 								</a>
 								</div>
 								 <div><a href="#">Contact</a></div>
-								 <div a href="#">Sitemap</a></div>
+								 <div><a href="#">Sitemap</a></div>
 							</div>
 
 							<div class = "right-bottom-div">
